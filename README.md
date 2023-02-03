@@ -34,6 +34,8 @@ Question:
 See total summary table results: 
 
 ![Alt text](Screenshots/total_summary.PNG)
+
+
 See lot summary table results: 
 ![Alt text](Screenshots/lot_summary.PNG)
 We look at the all manufacturing lots, noting that the variance of the suspension coils is 62.29 PSI, which does not exceed the 100 PSI requirement. Then we further look at the individual lot, noting that Lot 1 and Lot 2 are within the 100 PSI requirement with variances of 0.98 and 7.47 respectively, while Lot 3 is way higher than the 100 PSI requirement wiht a variance of 170.29. 
