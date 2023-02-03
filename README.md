@@ -38,6 +38,7 @@ See total summary table results:
 
 See lot summary table results: 
 ![Alt text](Screenshots/lot_summary.PNG)
+
 We look at the all manufacturing lots, noting that the variance of the suspension coils is 62.29 PSI, which does not exceed the 100 PSI requirement. Then we further look at the individual lot, noting that Lot 1 and Lot 2 are within the 100 PSI requirement with variances of 0.98 and 7.47 respectively, while Lot 3 is way higher than the 100 PSI requirement wiht a variance of 170.29. 
 
 
@@ -46,17 +47,21 @@ In this deliverable, we performed t-tests to determine if all manufacturing lots
 
 See t-test for all lots: 
 ![Alt text](Screenshots/t.test_all.PNG)
+
 It shows that the mean of the sample for all lots is 1498.78, and the p-Value of 0.06, which is higher than 0.05. Therefore, it indicates that there is not sufficient evidence to reject the null hypothesis. Hence, the mean of all lots is statistically similar to the presumed population mean of 1500.
 
 See t-test for lot 1:
  ![Alt text](Screenshots/t.test_lot1.PNG)
+ 
  The mean of the sample for Lot 1 is 1500. The p-value of 1 is higher than 0.05. TTherefore, it indicates that there is not sufficient evidence to reject the null hypothesis. Hence, there is no statistical difference between sample mean and population mean. 
 See t-test for lot 2:
 ![Alt text](Screenshots/t.test_lot2.PNG)
+
 The mean of the sample for Lot 2 is 1500.02. The p-value of 0.61 is higher than 0.05. Therefore, it indicates that there is not sufficient evidence to reject the null hypothesis. Hence, there is no statistical difference between sample mean and population mean.
 
 See t-test for lot 3:  
 ![Alt text](Screenshots/t.test_lot3.PNG)
+
 The mean of the sample for Lot 3 is 1496.The p-value of 0.04 is lower than 0.05. There is sufficient evidence to reject the null hypothesis. Hence, there is statistical difference between sample mean and population mean. 
 
 In summary, Lot 3 seems to cause several fails and the process needs to be inspected further. 
