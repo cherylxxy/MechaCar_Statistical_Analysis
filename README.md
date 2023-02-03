@@ -81,7 +81,7 @@ Null hypothesis: MechaCar is competitive and comparable to models from all other
 Alternative hypothesis: MechaCar is NOT competitive and comparable to models from all other manufacturers.
 
 3. What statistical test would you use to test the hypothesis? And why?
-Multiple linear regression would be used because higher correlation level and predictabil;ity is determined.
+Multiple linear regression would be used because higher correlation level and predictability is determined.
 
 4. What data is needed to run the statistical test? 
 Vehicle price, Vehicle Weight, Vehicle Engine Serial, Vehicle MPG, etc.
